@@ -3,7 +3,9 @@ import scrapy
 import re
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+from pathlib import Path
 from pprint import pprint
+from ..items import PTTArticleItem
 
 class PttcrawlerSpider(scrapy.Spider):
     name = 'PTTCrawler'
@@ -125,14 +127,15 @@ class PttcrawlerSpider(scrapy.Spider):
         message_count = {'all': p+b+n, 'count': p-b, 'push': p, 'boo': b, 'neutral': n}
         
         # 整理文章資訊
-        data = {
-            'url': response.url,
-            'article_author': author,
-            'article_title': title,
-            'article_date': date,
-            'article_content': content,
-            'ip': ip,
-            'message_count': message_count,
-            'messages': messages
-        }
+        data = PTTArticleItem()
+        article_id = str(Path(urlparse(response.url).path).stem)
+        data['url'] = response.url
+        data['article_id'] = article_id
+        data['article_author'] = author
+        data['article_title'] = title
+        data['article_date'] = date
+        data['article_content'] = content
+        data['ip'] = ip
+        data['message_count'] = message_count
+        data['messages'] = messages
         yield data
