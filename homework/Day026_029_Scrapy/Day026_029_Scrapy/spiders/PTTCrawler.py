@@ -5,11 +5,10 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from pprint import pprint
 
-# 範例目標網址: https://www.ptt.cc/bbs/Gossiping/M.1557928779.A.0C1.html
 class PttcrawlerSpider(scrapy.Spider):
     name = 'PTTCrawler'
     allowed_domains = ['www.ptt.cc']
-    start_urls = ['https://www.ptt.cc/bbs/Gossiping/M.1578888792.A.73C.html']
+    start_urls = ['https://www.ptt.cc/bbs/Gossiping/M.1578982344.A.43C.html']
     cookies = {'over18': '1'}
 
     def start_requests(self):
