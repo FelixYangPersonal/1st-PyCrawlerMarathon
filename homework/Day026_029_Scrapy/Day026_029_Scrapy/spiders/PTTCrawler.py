@@ -10,10 +10,11 @@ from ..items import PTTArticleItem
 class PttcrawlerSpider(scrapy.Spider):
     name = 'PTTCrawler'
 
-    def __init__(self, start_urls, filename=None):
+    def __init__(self, board='Gossiping'):
         self.cookies = {'over18': '1'}
-        self.start_urls = start_urls
-        self.filename = filename
+        self.host = 'https://www.ptt.cc'
+        self.board = board
+        self.start_urls = 'https://www.ptt.cc/bbs/{}/index.html'.format(board)
         super().__init__()
 
     def start_requests(self):
