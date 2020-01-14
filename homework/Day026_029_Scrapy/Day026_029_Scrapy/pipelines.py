@@ -62,7 +62,7 @@ class JSONPipeline(object):
         # 以爬蟲的 board name + 日期當作存檔檔名
         if spider.name == 'PTTCrawler' and spider.board:
             self.store_file_path = self.dir_path / '{board}-{datetime}.json'.format(
-                    board=spider.board, datetime=datetime.now().strftime('%Y%m%dT%H:%M:%S'))
+                    board=spider.board, datetime=datetime.now().strftime('%Y%m%dT%H%M%S'))
 
         self.store_file_path = str(self.store_file_path)
         os.rename(self.runtime_file_path, self.store_file_path)
