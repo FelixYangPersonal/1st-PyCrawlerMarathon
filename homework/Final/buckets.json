@@ -1,0 +1,276 @@
+{
+    "EN": {
+        "tech_tw": [
+            "robot_tw",
+            "BlockChain_tw",
+            "apple_tw",
+            "app_tw",
+            "e-commerce_tw",
+            "cloud_services_tw",
+            "startups_tw",
+            "3c_tw",
+            "mobile_tw",
+            "notebook_tw",
+            "FinancialTechnology_tw",
+            "virtualreality_tw",
+            "info_security_tw",
+            "GoogleZone_tw",
+            "UAS_tw",
+            "camera_tw",
+            "IoT_TW"
+        ],
+        "business_tw": [
+            "FinancialManagement_tw",
+            "career_tw",
+            "finance_tw",
+            "international_tw",
+            "management_tw",
+            "estate_tw",
+            "marketing_tw",
+            "e-commerce_tw",
+            "startups_tw",
+            "CrossStrait_tw",
+            "SharingEconomy_tw",
+            "InternetCelebrity_tw",
+            "crowdfunding_tw"
+        ],
+        "life_tw": [
+            "gender_tw",
+            "TravelLife_tw",
+            "beautysalon_tw",
+            "parenting_tw",
+            "health_tw",
+            "movie_tw",
+            "fitness_tw",
+            "PopularDelicacy_tw",
+            "drama_tw",
+            "photography_tw",
+            "car_tw",
+            "HousePet_tw"
+        ],
+        "Game_tw": [
+            "GameInformation_tw",
+            "ElectronicSports_tw",
+            "LoL_tw"
+        ],
+        "Sports_tw": [
+            "Basketball_tw",
+            "Baseball_tw",
+            "fitness_tw",
+            "Soccer_tw",
+            "Tennis_tw",
+            "Golf_tw",
+            "Joggings_tw",
+            "Volleyball_tw",
+            "Badminton_Tw",
+            "Table tennis_tw"
+        ],
+        "design_tw": [
+            "interior_design_tw",
+            "graphic_design_tw",
+            "product_design_tw",
+            "uiux_tw"
+        ],
+        "Reading_tw": [
+            "ReadNovel_tw",
+            "PictureBook_tw",
+            "GoodArticle_tw"
+        ],
+        "3CExpert_tw": [
+            "apple_tw",
+            "app_tw",
+            "mobile_tw",
+            "notebook_tw",
+            "3c_tw",
+            "camera_tw"
+        ],
+        "GamePlayer_tw": [
+            "GameInformation_tw",
+            "movie_tw",
+            "ElectronicSports_tw",
+            "photography_tw",
+            "drama_tw"
+        ],
+        "Babyhome_tw": [
+            "parenting_tw",
+            "TravelLife_tw",
+            "health_tw",
+            "gender_tw"
+        ],
+        "Hipster_tw": [
+            "interior_design_tw",
+            "movie_tw",
+            "graphic_design_tw",
+            "photography_tw",
+            "camera_tw",
+            "product_design_tw",
+            "drama_tw"
+        ],
+        "Fitness_tw": [
+            "health_tw",
+            "fitness_tw",
+            "Joggings_tw"
+        ],
+        "WhiteCollar_tw": [
+            "career_tw",
+            "management_tw",
+            "marketing_tw",
+            "FinancialManagement_tw",
+            "startups_tw"
+        ],
+        "InternationalFinance_tw": [
+            "finance_tw",
+            "international_tw",
+            "estate_tw",
+            "CrossStrait_tw"
+        ],
+        "Hedonism_tw": [
+            "TravelLife_tw",
+            "beautysalon_tw",
+            "health_tw",
+            "PopularDelicacy_tw",
+            "gender_tw"
+        ],
+        "CityTour_tw": [
+            "TravelLife_tw",
+            "PopularDelicacy_tw"
+        ]
+    },
+    "CH": {
+        "科技": [
+            "AI與大數據",
+            "區塊鏈技術",
+            "蘋果專區",
+            "APP應用程式",
+            "電子商務",
+            "社交媒體",
+            "創業",
+            "3C產品",
+            "手機平板",
+            "筆電",
+            "Fintech金融科技",
+            "虛擬實境",
+            "資訊安全",
+            "Google專區",
+            "無人駕駛",
+            "相機",
+            "物聯網"
+        ],
+        "商業": [
+            "理財",
+            "職涯",
+            "財經",
+            "國際",
+            "趨勢與策略",
+            "房地產",
+            "行銷",
+            "電子商務",
+            "創業",
+            "兩岸",
+            "共享經濟",
+            "網紅經濟與自媒體",
+            "群眾募資"
+        ],
+        "生活": [
+            "兩性",
+            "旅遊",
+            "美妝保養",
+            "育兒",
+            "醫療健康",
+            "電影",
+            "健身",
+            "美食",
+            "影劇",
+            "攝影",
+            "汽車",
+            "寵物"
+        ],
+        "遊戲": [
+            "遊戲情報",
+            "電競",
+            "英雄聯盟"
+        ],
+        "運動": [
+            "籃球",
+            "棒球",
+            "健身",
+            "足球",
+            "網球",
+            "高爾夫",
+            "戶外路跑",
+            "排球",
+            "羽球",
+            "桌球"
+        ],
+        "設計": [
+            "生活空間",
+            "平面設計",
+            "產品設計",
+            "UIUX 設計"
+        ],
+        "閱讀": [
+            "小說",
+            "童書",
+            "好文共賞"
+        ],
+        "3C達人": [
+            "蘋果專區",
+            "APP應用程式",
+            "手機平板",
+            "筆電",
+            "3C產品",
+            "相機"
+        ],
+        "御宅學園": [
+            "遊戲情報",
+            "電影",
+            "電競",
+            "攝影",
+            "影劇"
+        ],
+        "親子家庭": [
+            "育兒",
+            "旅遊",
+            "醫療健康",
+            "兩性"
+        ],
+        "文青聚落": [
+            "生活空間",
+            "電影",
+            "平面設計",
+            "攝影",
+            "相機",
+            "產品設計",
+            "影劇"
+        ],
+        "健身瘦身": [
+            "醫療健康",
+            "健身",
+            "戶外路跑"
+        ],
+        "職場白領": [
+            "職涯",
+            "趨勢與策略",
+            "行銷",
+            "理財",
+            "創業"
+        ],
+        "國際財經": [
+            "財經",
+            "國際",
+            "房地產",
+            "兩岸"
+        ],
+        "享樂女性": [
+            "旅遊",
+            "美妝保養",
+            "醫療健康",
+            "美食",
+            "兩性"
+        ],
+        "城市食旅": [
+            "旅遊",
+            "美食"
+        ]
+    }
+}
